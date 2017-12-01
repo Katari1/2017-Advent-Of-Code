@@ -19,7 +19,7 @@ for i in range(len(parsed_input)):
         next = parsed_input[i+1]
     except IndexError:
         current = parsed_input[i]
-        remaining = parsed_input[0]
+        next = parsed_input[0]
     if current == next:
         sum += current
 print sum
