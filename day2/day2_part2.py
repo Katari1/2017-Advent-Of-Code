@@ -4,7 +4,6 @@ def parse_input(puzzle_input):
     lines = content.readlines()
     for l in lines:
         if l.strip():
-            l = (l)
             data.append(l.strip().split('\t'))
     return data
 
